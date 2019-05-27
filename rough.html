@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>web creation</title>
+  
+  <!-- Required meta tags -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Bootstrap css-->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <!--jQuery-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <!--FontAwesomeIcons-->
+  <link rel="stylesheet" type="text/css"href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--animation-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+  <!--GoogleFonts-->
+  <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Freckle Face' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Joti One' rel='stylesheet'>
+
+  <style>
+
+  body {
+    position: absolute; 
+    height: 100%;
+    width: 100%;
+
+  }
+  #myNavbar{
+    margin-left: 55%;
+  }
+  .navbar{
+    background-color: purple;
+  }
+  .navbar-toggle{
+    border:2px solid white;
+  }
+
+  .fa-home{
+    color:white;
+    padding-right: 5px; 
+  }
+
+.fa-laptop{
+    color:#fff;
+    padding-right: 5px; 
+  }
+
+.fa-handshake-o{
+    color:#fff;
+    padding-right: 5px; 
+  }
+
+.fa-users{
+    color:#fff;
+    padding-right: 5px; 
+  }
+
+.fa-phone{
+    color:#fff;
+    padding-right: 5px; 
+  }
+  .fa-sign-in{
+    color: #fff;
+    padding-right: 5px;
+  }
+
+
+   .navbar-brand{
+    font-size: 18px;
+   }
+  .yourElement {
+      animation-duration: 2s;
+      animation-delay: 1s;
+    }
+    .btn1{
+        background-color: transparent;
+        border:1px solid blue;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        color: blue;
+        padding: 10px 20px;
+        margin-bottom: 15px;
+    }
+    .btn1:hover{
+      background-color: blue;
+      opacity: .5;
+      color: white;
+    border-radius: 50px;
+    }
+    .btn2{
+        background-color: transparent;
+        border:1px solid yellow;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        color: white;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+    .btn2:hover{
+      background-color: purple;
+      opacity: .7;
+      color: white;
+      border:1px solid white;
+      border-radius: 50px;
+    }
+    .btn3{
+        background-color: transparent;
+        border:1px solid #fff;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        color: white;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+    .btn3:hover{
+      background-color: #bf55ec;
+      opacity: .7;
+      color: white;
+      border:1px solid yellow;
+      border-radius: 50px;
+    }
+    
+    .head{
+      font-size: 22px;
+      font-family: sans-serif;
+      color: #bf55ec;
+      text-decoration: none;
+    }
+    .para1{
+      font-size: 20px;
+      font-family: sans-serif;
+      color: black;
+      text-decoration: none;
+    }
+    .lead{
+      font-family: Segoe Print;
+    }
+    .btn-one{
+      border:1px solid blue;
+      color: black;
+    }
+    .btn-one:hover{
+      border:1px solid #fff;
+      color: white;
+      background-color: transparent;
+    }
+    .row{
+      padding-top: 20px;
+      padding-bottom: 20px;
+   }
+    
+  .light{
+    width: 15%;
+  }
+  #jumbo{
+    color: black;
+    background-color: #ff9800;
+
+  }
+  .card {
+    border: 1px solid #000;
+  width: 350px;
+}
+
+.card:hover {
+  box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.8);
+  color: #fff;
+  border:1px solid #fff;
+}
+
+.container{
+  padding-top: 50px;
+}
+.btn-card{
+  margin-left: 3%;
+  margin-bottom: 3%;
+  color: #000;
+  font-size: 16px;
+  border: 1px solid #000;
+  
+}
+.btn-card:hover{
+  color: #fff;
+  background-color: #111;
+  border: 1px solid #fff;
+}
+* {
+  box-sizing: border-box;
+}
+
+.phy {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.phy img {
+  vertical-align: middle;
+}
+
+.phy .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.8); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.para2{
+  font-size: 20px;
+  font-family: Segoe Print;
+}
+ .fa-file-text{
+  font-size: 200px;
+  margin-left: 100px;
+  margin-top: 20px;
+  color: green;
+ } 
+ 
+ .fa-clock-o{
+  font-size: 200px;
+  margin-left: 100px;
+  margin-top: 23px;
+  margin-bottom: 24px;
+  color: green;
+
+ }
+ .fa-eye{
+  font-size: 200px;
+  margin-left: 100px;
+  margin-top: 23px;
+  margin-bottom: 24px;
+  color: #000;
+
+ } 
+ .myprofile {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.me {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.fa-instagram{
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  padding: 3px;
+}
+.fa-twitter{
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  padding: 3px;
+}
+.fa-linkedin{
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  padding: 3px;
+}
+.fa-facebook{
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  padding: 3px;
+}
+.fa-whatsapp{
+  padding: 5px;
+}
+.me:hover{
+background-color: #d5d5d5;
+}
+
+ a:hover {
+  opacity: 0.7;
+}
+ .mebtn{
+  font-size: 22px;
+  font-family: Freckle Face;
+  padding:8px;
+  color: #fff;
+  background-color: #000;
+  margin-left: 40%;
+  border:1px solid #fff;
+ }
+ .mebtn:hover{
+  color: black;
+  background-color: #fff;
+  border:1px solid black;
+ }
+ footer{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("footer.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff !important;
+    padding-top: 3rem;
+  }
+  .fa-whatsapp{
+    color: #fff;
+    padding:5px;
+  }
+  .fa-globe{
+    color: #fff;
+    padding:5px;
+  }
+  .fa-mobile{
+    color: #fff;
+    padding:5px;
+  }
+  .fa-envelope-open{
+    color: #fff;
+    padding:5px;
+  }
+  .fa-arrow-right{
+    color: #fff;
+    padding:5px;
+  }
+  .fa-map-marker{
+    color: #fff;
+    padding:5px;
+  }
+  .light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+  }
+  /* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.contact {
+  border-radius: 5px;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("coffee.jpg");
+  background-size: cover;
+  background-position: center;
+   color: #fff !important;
+  
+}
+.address{
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.image-container {
+  background-image: url("back.jpg");
+  background-size: cover;
+  position: relative;
+  height: 275px;
+}
+
+.port {
+  background-color: #4169E1;
+  color: #000;
+  font-size: 5.95vw; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+}
+.cardback{
+  background-color: #d5d5d5;
+  opacity: .8;
+  
+
+}
+.social a{
+    font-size: 4.5em;
+    padding: 3rem;
+  }
+  .fa-youtube{
+    color: red;
+  }
+  .fa-youtube:hover{
+    color: #d5d5d5;
+  }
+  .fa-facebook-official{
+    color: blue;
+
+  }
+  .fa-facebook-official:hover{
+    color: #d5d5d5;
+  }
+  .fa-twitter-square{
+    color: skyblue;
+  }
+  .fa-twitter-square:hover{
+    color: blue;
+  }
+  .services{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("services.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff !important;
+    height: 1480px;
+  }
+  .service{
+    margin:90px auto;
+    text-align: center;
+  }
+  .service-heading{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+  .service-heading:after{
+    content: '';
+    background: #fff;
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 10px auto;
+  }
+  .icon{
+    font-size: 50px;
+    margin: 20px auto;
+    padding:25px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+  }
+  .web{
+    padding-bottom: 10px;
+  }
+  .web:hover{
+    box-shadow: 5px 7px 9px -3px rgba(255,255,255,0.5);
+    cursor: pointer; 
+  }
+  .dns{
+    font-family: Athiti;
+    font-size: 20px;
+    padding:10px;
+    background-color: transparent;
+    color: #fff;
+    border:1px solid #fff;
+  }
+  .dns:hover{
+    background-color: #d5d5d5;
+    color: #000;
+  }
+  #google_translate_element{
+    width: 150px;
+    height: 20px;
+    
+  }
+  .pshow{
+    padding: 5px;
+    color: #fff;
+    background-color: #ff9800;
+    border:1px solid black;
+    margin-left: 10px;
+  }
+  .pshow:hover{
+    color: #000;
+    background-color: #fff;
+    border:1px solid black;
+  }
+  .phide{
+    padding: 5px;
+    color: #fff;
+    background-color: #ff9800;
+    border:1px solid black;
+    margin-left: 10px;
+  }
+  .phide:hover{
+    color: #000;
+    background-color: #fff;
+    border:1px solid black;
+  }
+  #ak{
+    background-color:#f1f1f1; 
+  }
+  .animation{
+    animation: colorchnagevisiting 3s infinite;
+  }
+    @keyframes colorchnagevisiting{
+    0%{color:white;}
+    50%{color:yellow;}
+    100%{color:orange;}
+  }
+</style>
+   
+</head>
+<body>
+<!--navigation menu-->
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+
+      <a class="navbar-brand" href="#" style="font-size:20px;font-family: Freckle Face;">Web Creation</a>
+    </div>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a class="navcontent" href="#imageslider"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li><a class="navcontent" href="#services"><i class="fa fa-laptop" aria-hidden="true"></i>Services</a></li>
+            <li><a class="navcontent" href="#portfolio"><i class="fa fa-handshake-o" aria-hidden="true"></i>portfolio</a></li>
+            <li><a class="navcontent" href="#profile"><i class="fa fa-users" aria-hidden="true"></i>About Us</a></li>
+            <li><a class="navcontent" href="#contact"><i class="fa fa-phone" aria-hidden="true"></i> Contact Us</a></li>
+            <li><div id="google_translate_element"></div></li>      
+          </ul>
+       </div>     
+  </div>
+</nav>
+<!--navigation menu end-->
+
+<hr> 
+
+<!--image Slider-->
+
+<section id="imageslider">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="img.jpg" alt="Los Angeles" style="width:100%;">
+        <div class="carousel-caption">
+          <div class="text animated fadeInUp yourElement">
+          <h4 class="head">BY SIMPLEQODE</h4>
+          <p class="para1">Landing pages for any occasion</p>
+          <a href="#contact"><button class="btn1">Create Now</button></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img1.jpg" alt="Chicago" style="width:100%;">
+        <div class="carousel-caption">
+          <div class="text animated fadeInUp yourElement">
+          <h1 class="#">Gear up to land somewhere new!</h1>  
+          <a href="#contact"><button class="btn2">Start Now</button></a>
+        </div>
+      </div>
+    </div>
+    
+      <div class="item">
+        <img src="image.jpg" alt="New York" style="width:100%;">
+        <div class="carousel-caption">
+          <div class="text animated fadeInUp yourElement">
+          <h2 class="#">We provide solutions for your business!</h2>
+          <a href="#contact"><button class="btn3">Get Now</button></a>
+        </div>
+      </div>
+  </div>
+
+    <!-- Left and right controls -->
+
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</section>
+
+<!--jumbotron-->
+<section id="jumbo">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+      <p class="lead animated fadeInUp yourElement">A web hosting service allows individuals and organisations to make their website accessible via the World Wide Web.</p>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+      <a href="#"><button type="button" class="btn btn-one btn-lg">Web Hosting</button></a>
+      
+    </div>
+  </div>
+</div>
+</section>
+
+<!--About Section-->
+
+<!-- profile section-->
+<section id="profile">
+<div class="container-fluid padding" style="background-color:#f1f1f1">
+  <div class="row" style="padding-top: 50px;">
+
+    <div class="col-lg-3 myprofile animated fadeInUp yourElement">
+  <img src="me.jpg" alt="tnx" style="width:100%">
+      <h2 style="font-family: Bungee;">Mr.Akshay Patil</h2>
+        <p class="title">CEO</p>
+        <p>Web Creation</p>
+      <div style="margin: 24px 0;">
+          <a href="#"><i class="fa fa-instagram"></i></a> 
+          <a href="#"><i class="fa fa-twitter"></i></a>  
+          <a href="#"><i class="fa fa-linkedin"></i></a>  
+          <a href="#"><i class="fa fa-facebook"></i></a> 
+      </div>
+       <a href="#contact"><button class="me">Contact</button></a>
+  </div>
+
+    <div class="col-lg-9">
+      <h1 class="xlarge-font" style="margin-left: 100px;"><b>About Me</b></h1>
+      <h1 class="large-font" style="color:red;margin-left: 100px;"><b>Professional Developer!</b></h1>
+      <p class="p1 animated fadeInUp yourElement" style="font-size:20px;font-family:Cutive Mono;margin-left: 100px;">Welcome to Web creation!,<br>It is number one source for all developer things. We're dedicated to giving you the very best of Service, with a focus on customer requirements!.</p>
+
+      <p class="p1 animated fadeInUp yourElement" style="font-size:20px;font-family:Cutive Mono; margin-left: 100px;">Founded in 2019 by Akshay Patil, Web Creation has try to come a long way from its beginnings from your support and love. Akshay Patil first started out, his passion for helping businesses be speedly growing, providing the best services for yours!</p>
+
+     <p class="p1 animated fadeInUp yourElement" style="font-size:20px;font-family:Cutive Mono;margin-left: 100px;"> We hope you enjoy our Services as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.<br>
+
+      Thanks And regards!</p>
+      <a href="#contact"><button class="mebtn">Contact Us</button></a>
+    </div>
+  </div>
+</div>
+</section>
+
+<hr>
+
+<!--card section-->
+
+<section id="cards" class="#">
+  <div class="container-fluid cardback">
+<div class="container padding">
+  <div class="row padding">
+        <div class="col-md-4">
+          <div class="card animated fadeInUp yourElement">
+            <i class="fa fa-file-text" aria-hidden="true"></i>
+          <h4 class="card-title text-center" style="color: #000;"><b> Our Plan</b></h4> 
+        <p class="card-text" style="font-size: 20px;padding: 10px; color: #000;">Plan is the first step for every project, let's click on 'GET IN TOUCH' to discuss the plan. hurry up!</p>
+        <a href="#contact" class="btn btn-card">Get In touch</a> 
+    </div>
+</div>
+  <div class="col-md-4">
+    <div class="card animated fadeInUp yourElement">
+      <i class="fa fa-clock-o" aria-hidden="true"></i>
+        <h4 class="card-title text-center" style="color: #000;"><b>Our Mission</b></h4> 
+        <p class="card-text" style="font-size: 20px; padding: 10px;color: #000;">Once the plan is done, We move towards the developement of website.</p>
+        <a href="mission.html" class="btn btn-card">Click Here!</a>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card animated fadeInUp yourElement">
+    <i class="fa fa-eye" aria-hidden="true"></i>
+      <h4 class="card-title text-center" style="color: #000;"><b>Our vision</b></h4> 
+    <p class="card-text" style="font-size: 20px;padding: 10px;color: #000;">Once the developement is completed We launch your Website on Internet.</p>
+    <a href="mission.html" class="btn btn-card">Why Us?</a>
+           
+  </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<hr>
+
+<!--section Services-->
+
+<section id="services">
+  <div class="container-fluid services padding">
+    <div class="service">
+      <h1 class="service-heading">Our Services</h1>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 web animated fadeInUp yourElement text-center">
+        <div class="icon">
+          <i class="fa fa-desktop" aria-hidden="true"></i>
+        </div>
+        <h3>Web Development</h3>
+        <p style="font-family:Athiti;font-size: 20px;">We are market leader and uncompetitive because we believe in providing excellence presentation,Quick service,fast access with Affordable rates.All the big businesses and reputed firms are our customers and doing their market promotions activity through Us.</p>
+       <a href="#contact"><button class="dns">Start Now</button></a> 
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 web animated fadeInUp yourElement text-center">
+        <div class="icon">
+          <i class="fa fa-file-archive-o" aria-hidden="true"></i>
+        </div>
+        <h3>DNS Registration</h3>
+        <p style="font-family:Athiti; font-size: 20px;">Domain Name Registration is the basic and main step in website development.we provide DNS registration service in very much popular extensions such as .com,.in,.edu,.co.in,.org,.nic.in,etc..</p>
+        <a href="register.html"><button class="dns">Register Now</button></a> 
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 web animated fadeInUp yourElement text-center">
+        <div class="icon">
+          <i class="fa fa-video-camera" aria-hidden="true"></i>
+        </div>
+        <h3>Web Hosting</h3>
+        <p style="font-family:Athiti;font-size: 20px;">Various Hosting plans are available according to customers requirements.we have our own host server and we host your websiteaccording to plans which are choosen by you.</p>
+          <a href="#jumbo"><button class="dns">Get Now</button></a>
+        
+      </div>
+  </div>
+  </div>
+  
+</section>
+<hr>
+
+<!--philosophy section-->
+
+<section id="Philosophy">
+<div class="container-fluid padding">
+  <div class="phy">
+  <img src="philosophy.jpg" alt="Notebook" style="width:100%; height: 600px;">
+  <div class="content">
+    <h1 class="our animated fadeInUp yourElement" style="font-family: Bahnschrift;">Our Philosophy</h1>
+        <p class="para2 animated fadeInUp yourElement">We know that greatness in a disruptive era requires bold ambition,curies talent and a culture that believes we're smarter together.</p>
+
+        <p class="para2 animated fadeInUp yourElement">We approach every challenge holistically,with best-in-class expertise in data,creativity,media,technology,search,social and more.</p>
+
+        <p class="para2 animated fadeInUp yourElement">We call this Alchemy.It has the power to build our client's brands and transform their business.And while it may seem like magic,we've got down it to a science.</p>
+  </div>
+</div>
+</div>
+</section>
+<hr>
+
+<!--portfolio section-->
+
+<section id="portfolio">
+<div class="image-container">
+
+
+  <div class="port">Portfolio's are under construction!
+    Thank You for <a href="portfolio.html"><span class="animation">visiting!</span></a></div>
+
+
+</div>
+</section>
+<hr>
+
+<!--contact section-->
+
+<section id="contact">
+<div class="container-fluid contact" style="padding-top: 50px;">
+  <div style="text-align:center">
+    <h2 style="font-family:Athiti;">Contact Us</h2>
+    <p style="font-family:Athiti; font-size: 20px;">Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column animated fadeInUp yourElement" style="padding-left: 50px;">
+      <div class="address col-lg-6">
+      <h2 style="font-family:Athiti;"><b>Contact Info</b></h2>
+        <p style="font-size: 24px;font-family:Athiti;">Akshay Patil.<br><i class="fa fa-mobile" aria-hidden="true"></i>
+        +91-9767147832</p>
+        <p style="font-size: 24px;font-family:Athiti;"><i class="fa fa-whatsapp" aria-hidden="true"></i>+91-8459645718</p>
+        
+        <p style="font-size: 24px;font-family:Athiti;"><i class="fa fa-envelope-open" aria-hidden="true"></i>webcreation28@gmail.com</p>
+        <p style="font-size: 24px;font-family:Athiti;"><i class="fa fa-map-marker" aria-hidden="true"></i>   Akola,Maharashtra, 444001</p>
+        <p style="font-size: 24px;font-family:Athiti;"><i class="fa fa-globe" aria-hidden="true"></i>www.webcreation.in</p>
+        
+      </div>
+    </div>
+    <div class="column animated fadeInUp yourElement">
+      <form name="frm" method="post" action="contact.php">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Your first name.." style="background:transparent;">
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Your last name.." style="background:transparent;">
+        <label for="phone">Contact No.</label>
+        <input type="text" id="phone" name="phone" placeholder="Your contact number.."style="background:transparent;">
+        <label for="country">Country</label>
+        <select id="country" name="country" style="background:transparent;">
+          <option value="India" style="background-color: #000;">India</option>
+          <option value="australia" style="background-color: #000;">Australia</option>
+          <option value="canada" style="background-color: #000;">Canada</option>
+          <option value="usa" style="background-color: #000;">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px;background:transparent;"></textarea>
+        <input type="submit" value="Submit" onclick="fun()" style="background:transparent; color: #fff; border:1px solid #fff;">
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+<hr>
+<section>
+  <button class="pshow">Show Team</button>
+  <button class="phide">Hide Team</button>
+  <div id="ak">
+    <div style="text-align:center">
+    <h1 style="font-family:Athiti;"><b>Our Team</b></h1>
+    </div>
+    <div class="container padding">
+  <div class="row" style="margin-left: 10%;">
+
+    <div class="col-lg-4 text-center" style="width: 300px;padding-bottom: 20px;">
+  <img src="sir.png" alt="tnx" style="width:100%;" >
+      <h2 style="font-family: Bungee;">Mr.Bhupendra Jogi</h2>
+        <p class="title">Founder</p>
+        <p>Web Creation</p>
+      <div style="margin: 24px 0;">
+          <a href="#"><i class="fa fa-instagram"></i></a> 
+          <a href="#"><i class="fa fa-twitter"></i></a>  
+          <a href="#"><i class="fa fa-linkedin"></i></a>  
+          <a href="#"><i class="fa fa-facebook"></i></a> 
+      </div>
+       <a href="#contact"><button class="me">Contact</button></a>
+  </div>
+
+  <div class="col-lg-4 text-center" style="width: 300px;padding-bottom: 20px;">
+  <img src="me.jpg" alt="tnx" style="width:100%">
+      <h2 style="font-family: Bungee;">Mr.Akshay Patil</h2>
+        <p class="title">CEO</p>
+        <p>Web Creation</p>
+      <div style="margin: 24px 0;">
+          <a href="#"><i class="fa fa-instagram"></i></a> 
+          <a href="#"><i class="fa fa-twitter"></i></a>  
+          <a href="#"><i class="fa fa-linkedin"></i></a>  
+          <a href="#"><i class="fa fa-facebook"></i></a> 
+      </div>
+       <a href="#contact"><button class="me">Contact</button></a>
+  </div>
+  <div class="col-lg-4 text-center" style="width: 300px;">
+  <img src="pankaj.png" alt="tnx" style="width:100%">
+      <h2 style="font-family: Bungee;">Mr.Pankaj Amale</h2>
+        <p class="title">Supporter</p>
+        <p>Web Creation</p>
+      <div style="margin: 24px 0;">
+          <a href="#"><i class="fa fa-instagram"></i></a> 
+          <a href="#"><i class="fa fa-twitter"></i></a>  
+          <a href="#"><i class="fa fa-linkedin"></i></a>  
+          <a href="#"><i class="fa fa-facebook"></i></a> 
+      </div>
+       <a href="#contact"><button class="me">Contact</button></a>
+  </div>
+
+</div>
+</div>
+</div>
+  
+</section>
+<hr>
+<section id="connect">
+ <!--connect section-->
+<div class="container-fluid padding">
+  <div class="row text-center padding">
+    <div class="col-12">
+      <h1 style="font-family:Joti One;">Connect Via</h1>
+      <hr style="width: 20%;color: #000;">
+    </div>
+    <div class="col-12 social padding">
+      <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</div>
+<hr>
+ 
+</section>
+
+
+
+<section id="footer">
+
+<!--Footer section-->
+<footer>
+  <div class="container-fluid padding">
+    <div class="row text-center">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <p><a href="#" style="font-size:20px;font-family: Freckle Face; color: white;">Web Creation</a>
+    </p>
+        <hr class="light">
+        <p style="font-size: 22px;font-family:Athiti;"><i class="fa fa-phone" aria-hidden="true"></i>  
+        +91-9767147832</p>
+        <p style="font-size: 22px;font-family:Athiti;"><i class="fa fa-whatsapp" aria-hidden="true"></i>+91-8459645718</p>
+        <p style="font-size: 22px;font-family:Athiti;"><i class="fa fa-envelope-open" aria-hidden="true"></i>    webcreation28@gmail.com</p>
+        <p style="font-size: 22px;font-family:Athiti;"><i class="fa fa-map-marker" aria-hidden="true"></i>   Akola,Maharashtra, 444001</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <hr class="light">
+        <h5 style="font-size: 23px;font-family:Athiti;">Our Hours</h5>
+        <hr class="light">
+        <p style="font-size: 22px;font-family:Athiti;">Monday:9am-5pm</p>
+        <p style="font-size: 22px;font-family:Athiti;">Saturday:11am-4pm</p>
+        <p style="font-size: 22px;font-family:Athiti;">Sunday:Closed</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <hr class="light">
+        <h5 style="font-size: 23px;font-family:Athiti;">Service Area</h5>
+        <hr class="light">
+        <p style="font-size: 22px;font-family:Athiti; ">Akola,Maharashtra, 444001</p>
+        <p style="font-size: 22px;font-family:Athiti;">Shegaon,Maharashtra</p>
+        <p style="font-size: 22px;font-family:Athiti;">Khamgaon,Maharashtra</p>
+      </div>
+      <div class="col-12">
+        <hr class="light">
+        <i class="fa fa-arrow-circle-o-up" aria-hidden="true" style="font-size: 20px;"></i>
+        <h4 style="font-family:Athiti;">&copy; Web Creations.All Rights Reserved.<br> Created by Web Creation<br> 2019</h4>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+</section>
+
+
+
+
+
+
+
+<script>
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});   
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+</script>
+<script type="text/javascript">
+    function fun()
+    {
+      if(document.frm.firstname.value=="")
+      {
+        alert("enter firstname!");
+        document.frm.firstname.focus();
+        return;
+      }
+
+      if(document.frm.lastname.value=="")
+      {
+        alert("enter lastname!");
+        document.frm.lastname.focus();
+        return;
+      }
+
+      if(document.frm.phone.value=="")
+      {
+        alert("enter contact number!");
+        document.frm.phone.focus();
+        return;
+      }
+
+      if(document.frm.country.value=="")
+      {
+        alert("enter country!");
+        document.frm.country.focus();
+        return;
+      }
+
+      if(document.frm.subject.value=="")
+      {
+        alert("Write something in subject!");
+        document.frm.subject.focus();
+        return;
+      }
+    }
+  </script>
+
+  <!--our team-->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+   $(".phide").click(function(){
+      $("#ak").hide("slow");    
+    });
+
+
+    $(".pshow").click(function(){
+      $("#ak").show(4000);
+    });
+
+  });
+</script>
+
+
+  <!--google translate-->
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+
+<!--Bootstrap-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!--Bootstrap End-->
+
+
+</body>
+</html>
+  
